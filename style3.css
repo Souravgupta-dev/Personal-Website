@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    animation:body 3s ease-in-out 0ms infinite alternate-reverse;
+    height: max-content;
+    background: linear-gradient(60deg,navy,black,blue,navy,skyblue);
+}
+.title{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    font-style: normal;
+    color: aliceblue;
+    text-decoration: white underline;
+}
+h3{
+    text-decoration-color: lab(120px white cyan);
+    color: magenta;
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: larger;
+    text-decoration: underline;
+}
+img{
+    margin: 10px 0 0 40%;
+}
+img:hover{
+    z-index:2;
+    background-clip: border-box;
+    transform: scale(1.4,1.4);
+    transition: transform 2s ease 0ms;
+    cursor: wait;
+    backface-visibility: hidden;
+    background: linear-gradient(-60deg,navy,black,blue,navy,skyblue);
+}
+@keyframes body {
+    0%{}
+
+    25%{background: linear-gradient(-10deg,navy,black,blue,navy,skyblue);}
+    50%{background: linear-gradient(-40deg,navy,black,blue,navy,skyblue);}
+    75%{background: linear-gradient(-50deg,navy,black,blue,navy,skyblue);}
+    100%{
+        background: linear-gradient(-60deg,navy,black,blue,navy,skyblue);
+    }
+}
