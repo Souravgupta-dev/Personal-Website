@@ -60,7 +60,6 @@ img:hover{
 @keyframes images {
     from{}
     to{
-        transform: scale(1.2,1.2);
         z-index: -2;
     }
 }
@@ -89,4 +88,5 @@ input:hover{
     100%{
         background: radial-gradient(100deg,navy,black,rgb(109, 109, 255),navy,skyblue);
     }
+
 }
